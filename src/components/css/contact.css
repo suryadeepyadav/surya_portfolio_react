@@ -1,0 +1,86 @@
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+.personal{
+    /* border: 1px solid gold; */
+    margin-bottom: .5em;
+    margin-top: .5em;
+    display: flex;
+    flex-direction: column;
+    gap: .5em 0;
+}
+
+.cform{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    background-color: rgba(126, 34, 206, 0.478);
+    border-radius: .5em;
+    width: 50%;
+    min-width: 15em;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    height: -2em !important;
+}
+.cform label{
+    margin-top: 1.2em;
+    margin-left: 1em;
+    font-weight: bold;
+}
+.cform input{
+    margin: 1.2em 1em;
+    height: 2.9em;
+    width:calc(100% -1em -1px) 100%;
+    border-radius: .5em;
+    border: 2px solid  rgb(126, 34, 206);
+}
+.cform textarea{
+    margin: 1em 1em;
+    /* height: 10em; */
+    width:calc(100% -1em -1px) 100%;
+    border-radius: .5em;
+    border: 2px solid  rgb(126, 34, 206);
+}
+.cform button{
+    margin: 1.5em 1em;
+    height: 3em;
+    width:calc(40% -1em -1px);
+    border-radius: .5em;
+    border: 2px solid  rgb(126, 34, 206);
+    /* background-color: rgb(255, 0, 0); */
+    background-color: transparent;
+    /* color: white; */
+    /* font-size: 1.2em; */
+}
+.cform button:hover{
+    background-color: rgb(126, 34, 206);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.pitem{
+    /* border: 1px solid blue; */
+    /* margin: 1em 0; */
+    margin-bottom: 1.5em;
+    padding: 1.2em 2.5em;
+    /* background-color: rgba(108, 107, 108, 0.393); */
+    background-color: rgba(126, 34, 206, 0.478);
+    border-radius: .5em;
+    height: 8em;
+}
+#add{
+    /* align-items: flex-end; */
+    /* justify-self: flex-end; */
+    position: relative;
+    top: 1.5em;
+}
+#email1{
+    position: relative;
+    top: .81em;
+}

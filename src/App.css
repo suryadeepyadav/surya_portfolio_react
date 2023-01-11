@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background: url(./components/images/background1.jpg) no-repeat;  */
+}
+App{
+  /* background: url(./components/images/background1.jpg); */
+  width: 100%;
+}
+.mainservices{
+  display:flex;
+  justify-content: space-around;
+   /* border: 1px solid red; */
+    background-color: rgba(188, 116, 247, 0.599);
+    margin-top: 1em;
+    flex-wrap: wrap;
+}
+.footer{
+  background-color: black;
+  color: white;
+  padding: 1em 1.6em;
+  
+}

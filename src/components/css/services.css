@@ -1,0 +1,23 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+    margin: 1em 0;
+    /* transform: width 1s ease-in-out; */
+    gap: .5em 0;
+    width: 18em;
+   
+}
+.simage{
+    height: calc(12em + .2vh);
+    /* width: calc(12em + .2vw); */
+    width: 100%;
+    margin-top: 1em;
+    /* border:1px solid red; */
+    border-radius: 1em;
+}
+
+
+

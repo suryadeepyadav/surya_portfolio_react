@@ -1,0 +1,75 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em 0;
+    /* border: 1px solid red; */
+    margin-top: 1em;
+    background: url(../images/bgvasu.jpg);
+    /* opacity: .2; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding-top: 4em;
+    color: rgb(126, 34, 206);
+    /* color: aqua; */
+}
+.profilimg{
+    /* height: calc(15em + .2vh); */
+    height: 15em;
+    /* width: calc(15em + .2vw); */
+    width: 15em;
+    margin-top: .1em;
+    border:1px solid rgb(126, 34, 206);
+    border-radius: 2em;
+}
+.profilimg img{
+    height: 90%;
+    width: 100%;
+    border-radius: 10%;
+}
+.name{
+    /* border: 1px solid gold; */
+    border-radius: .4em;
+}
+.name h3{
+    /* font-size: calc(.41em + 1vw); */
+    font-weight: bold;
+    font-size: 1.5em;
+    /* background-color: rgb(240, 130, 51); */
+   
+    /* border: 1px solid red; */
+}
+.meadia{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 1.5em;
+    font-size: 2rem;
+    /* font-size: calc(.41em + 1vw); */
+    /* border: 1px solid red; */
+    width: 5em;
+}
+.resum{
+    font-size: 1em;
+    margin-bottom: .9em;
+}
+.resum button{
+    border: 1px solid rgb(126, 34, 206);;
+    border-radius: .4em;
+    padding: .3em 1.3em;
+    background-color: transparent;
+    /* color: rgb(13, 13, 13); */
+    color: rgb(126, 34, 206);
+    /* font-size: calc(.41em + 1vw); */
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.resum button:hover{
+    background-color: rgb(126, 34, 206);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
